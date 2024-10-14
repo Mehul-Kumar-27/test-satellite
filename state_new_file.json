@@ -1,0 +1,45 @@
+{
+  "registry": "Satellite",
+  "artifacts": [
+    {
+      "repository": "satellite-test-group-state/alpine",
+      "tag": [
+        "edge"
+      ],
+      "labels": null,
+      "type": "IMAGE",
+      "digest": "sha256:4b27406f6c4ea07b596d7a0ee25e4f9c7b2152ab7ffbbb1817e036d727eabba1",
+      "deleted": false
+    },
+    {
+      "repository": "satellite-test-group-state/alpine",
+      "tag": [
+        "latest"
+      ],
+      "labels": null,
+      "type": "IMAGE",
+      "digest": "sha256:9cee2b382fe2412cd77d5d437d15a93da8de373813621f2e4d406e3df0cf0e7c",
+      "deleted": false
+    },
+    {
+      "repository": "satellite-test-group-state/postgres",
+      "tag": [
+        "latest"
+      ],
+      "labels": null,
+      "type": "IMAGE",
+      "digest": "sha256:dde924f70bc972261013327c480adf402ea71487b5750e40569a0b74fa90c74a",
+      "deleted": false
+    },
+    {
+      "repository": "satellite-test-group-state/busybox",
+      "tag": [
+        "latest"
+      ],
+      "labels": null,
+      "type": "IMAGE",
+      "digest": "sha256:cbfb4842eaea648ad3f0fa53bf27128563f09e1792ec754e0a1881e21780e88f",
+      "deleted": false
+    }
+  ]
+}

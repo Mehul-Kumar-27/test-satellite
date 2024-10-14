@@ -1,0 +1,15 @@
+{
+    "registry": "http://demo.goharbor.io/",
+     "artifacts": [
+       {
+        "repository": "satellite-test-alpine/alpine",
+        "tag": "latest",
+        "hash": "sha256:9cee2b38"
+      },
+     {
+      "repository": "satellite-test-postgres/postgres",
+      "tag": "latest",
+      "hash": "sha256:9cee2b38"
+     }
+    ]
+}

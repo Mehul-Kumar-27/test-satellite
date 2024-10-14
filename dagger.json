@@ -1,0 +1,12 @@
+{
+  "name": "test-satellite",
+  "sdk": "go",
+  "dependencies": [
+    {
+      "name": "docker",
+      "source": "github.com/shykes/daggerverse/docker@c9a80c9eac0675a53a7e052da3594207f4235988"
+    }
+  ],
+  "source": "dagger",
+  "engineVersion": "v0.12.4"
+}
