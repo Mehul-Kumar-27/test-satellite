@@ -74,7 +74,7 @@ func main() {
 		log.Fatalf("Failed to unmarshal artifacts.json: %v", err)
 	}
 
-	file, err := os.Create("state.json")
+	file, err := os.Create("state_now.json")
 	jsn, err := json.MarshalIndent(result, "", "  ")
 	file.Write(jsn)
 
